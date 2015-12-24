@@ -120,7 +120,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.357304491.1006552386" name="RaspberryPi" parent="cdt.managedbuild.config.gnu.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.357304491.1006552386" name="RaspberryPi" parent="cdt.managedbuild.config.gnu.exe.debug" postannouncebuildStep="copies output to network folder" postbuildStep="cp ${ProjName} /home/richard/network/ES_pi/">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.357304491.1006552386." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.804245173" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.2019181169" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-rpi-linux-gnueabihf-" valueType="string"/>
@@ -162,7 +162,7 @@
 									<listOptionValue builtIn="false" value="rt"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.1466663505" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="/home/richard/workspace/EventSystemLib/Debug"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EventSystemLib/Raspberry_Pi}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.flags.309528597" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-pthread" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1370337194" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
